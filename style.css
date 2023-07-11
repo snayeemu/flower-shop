@@ -122,3 +122,29 @@
   font-weight: 700;
   text-decoration-line: underline;
 }
+
+.section-margin-top {
+  margin-top: 128px;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-around;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 80px 0;
+  border-radius: 8px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  color: rgba(39, 39, 39, 0.8);
+  align-items: center;
+  justify-content: center;
+}
+
+.service-image {
+  width: 88px;
+  height: 88px;
+}
