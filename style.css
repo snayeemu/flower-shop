@@ -188,7 +188,7 @@
 
 /* instagram */
 
-.instagram-content {
+.text-contents {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -204,4 +204,27 @@
 
 .instagram-images img {
   width: 17vw;
+}
+
+/* latest deal */
+
+.latest-deal-container {
+  background-image: url("./Flower-Asset/Rectangle-9.png");
+  padding: 122px 0;
+}
+
+.take-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.input-box {
+  width: 700px;
+  height: 64px;
+  border-radius: 8px;
+  background: #fff;
+  padding-left: 22px;
+  border: none;
 }
