@@ -210,6 +210,7 @@
 
 .latest-deal-container {
   background-image: url("./Flower-Asset/Rectangle-9.png");
+  background-repeat: no-repeat;
   padding: 122px 0;
 }
 
@@ -227,4 +228,28 @@
   background: #fff;
   padding-left: 22px;
   border: none;
+}
+
+/* footer */
+
+.footer {
+  background: #111010;
+  color: white;
+  padding: 70px 0;
+}
+
+.overwrite-white {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: medium;
+  font-family: Lato;
+}
+
+.copy-right {
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff66;
+
+  font-size: small;
 }
