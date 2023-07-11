@@ -17,6 +17,7 @@
   gap: 97px;
   padding-top: 50px;
   justify-content: space-around;
+  margin-bottom: 178px;
 }
 
 .content {
@@ -33,7 +34,7 @@
   font-weight: 800;
 }
 
-.header-text {
+.subtext {
   max-width: 550px;
   font-size: 18px;
   font-weight: 400;
@@ -60,4 +61,64 @@
   font-size: 20px;
   cursor: pointer;
   border: none;
+}
+
+.feature-flower-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.featured-flower-images {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.ff-image-1 {
+  width: 380px;
+  height: 450px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.ff-image-2 {
+  width: 380px;
+  height: 450px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.ff-image-3 {
+  width: 380px;
+  height: 450px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.feature-image {
+  width: 280px;
+  height: 380px;
+}
+
+.ff-image h5 {
+  text-align: center;
+  margin-top: 32px;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration-line: underline;
 }
